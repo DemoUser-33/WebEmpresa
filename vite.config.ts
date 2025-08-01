@@ -16,10 +16,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Configure build output directory to be 'doc'
   build: {
-    outDir: 'doc',
+    outDir: 'docs',
   },
-  // Set base path for GitHub Pages deployment
-  base: './',
+  base: '/webempresa/',
 }));
